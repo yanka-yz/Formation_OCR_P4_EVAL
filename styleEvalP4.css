@@ -101,11 +101,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .icon-round,
@@ -113,7 +113,7 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .divider-h span {
@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -151,17 +151,17 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(255, 255, 255);
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .panel {
@@ -232,7 +232,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -254,14 +254,14 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgb(0, 0, 0);
     border-color: rgba(0, 0, 0, .3);
 }
 
@@ -793,7 +793,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(165, 147, 99);
     padding: 40px 40px 40px 40px;
 }
 
@@ -819,7 +819,8 @@ footer .bgc-atomic-tangerine {
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #B85B1A;
+    font-size: 15px;
 }
 
 .btn-atomic-tangerine {
@@ -894,13 +895,13 @@ footer .bgc-atomic-tangerine {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -919,8 +920,8 @@ footer .bgc-atomic-tangerine {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -930,8 +931,8 @@ footer .bgc-atomic-tangerine {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 
